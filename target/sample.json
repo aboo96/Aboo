@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "validating login page with users",
+        "description": "",
+        "id": "validating-login-of-adactin-applications;validating-login-page-with-users;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19601718901,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should launch ther\" https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" https://adactinhotelapp.com/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Snipped.user_should_launch_ther(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2445476099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should launch \"nithinraje\" and \"9876543210\" and the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nithinraje\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"9876543210\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Snipped.user_should_launch_and_and_the_login_page(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2201273900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should select the details \"Paris\",\"Hotel Creek\",\"Double\",\"3 - Three\", \"1 - One\",\"2 - Two\",\"\u003ccheckIN\u003e\",\"\u003ccheckOut\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"\u003ccheckIN\u003e\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"\u003ccheckOut\u003e\"",
+                  "offset": 107
+                }
+              ],
+              "location": "Snipped.user_should_select_the_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1115599300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should select the hotel",
+            "match": {
+              "location": "Snipped.user_should_select_the_hotel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2009920400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should enter the details \"Alice\",\"Parker\",\"Chennai\",\"3698741254693214\",\"Master Card\",\"May\",\"2022\",\"555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alice\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Parker\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"3698741254693214\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"555\"",
+                  "offset": 103
+                }
+              ],
+              "location": "Snipped.user_should_enter_the_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6415046000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should get the OrderId",
+            "match": {
+              "location": "Snipped.user_should_get_the_OrderId()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1656190101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should select my itineraray",
+            "match": {
+              "location": "Snipped.user_should_select_my_itineraray()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310198200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter the detail \"6M1390FD25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6M1390FD25\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Snipped.user_should_enter_the_detail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 784039700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should select the go",
+            "match": {
+              "location": "Snipped.user_should_select_the_go()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165406999,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should selct the \"\u003corder id\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003corder id\u003e\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Snipped.user_should_selct_the(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 604777600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should select cancel",
+            "match": {
+              "location": "Snipped.user_should_select_cancel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should click the alert",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "validating login of adactin applications",
+    "description": "",
+    "id": "validating-login-of-adactin-applications",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucu.feature",
+    "tags": []
+  }
+]
